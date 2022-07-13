@@ -1,3 +1,3 @@
-##CMD CHALLENGE 
-#Game to check and challenge my Bash Skills
-#Lets ride
+#CMD CHALLENGE
+#Game to test and improve on my BashFu Skills
+
