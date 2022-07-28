@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+#script changing hostname and facebook IP
+
+127.0.0.1 localhost
+8.8.8.8 www.facebook.com
