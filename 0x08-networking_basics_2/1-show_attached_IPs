@@ -1,2 +1,4 @@
+#!/usr/bin/env bash
+#displays all IPv4 adresses on machine it's executed from"
 ifconfig | grep -Eo "inet (addr:)?([0-9]*\.){3}[0-9]*" | awk '{print$2}'
 
