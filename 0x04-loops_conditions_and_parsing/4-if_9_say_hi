@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #script displaying  Best School with 9th iteration of Hi
-n=1
+n=0
 while [ "$n" -lt 10 ]
 do
 	
