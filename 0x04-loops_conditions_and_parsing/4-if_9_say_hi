@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Script displaying  Best School with 9th iteration of Hi
+n=1
+while [ "$n" -le 10 ]
+do
+	if [ "$n" = 9 ];
+	then
+	echo "Hi"
+	else
+	echo "Best School"
+	fi
+	((n++))
+done
