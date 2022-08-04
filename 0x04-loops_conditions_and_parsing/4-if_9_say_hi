@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Script displaying  Best School with 9th iteration of Hi
+#script displaying  Best School with 9th iteration of Hi
 n=1
 while [ "$n" -lt 10 ]
 do
