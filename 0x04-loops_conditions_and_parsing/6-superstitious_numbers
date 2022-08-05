@@ -10,18 +10,18 @@ do
 		4 )
 			echo "$n"
 			echo "bad luck from China"
-		;;
+			;;
 		9 )
 			echo "$n"
 			echo "bad luck from Japan"
-		;;
+			;;
 		17 )
 			echo "$n"
 			echo "bad lucky from Italy"
-		;;
+			;;
 		* )
-		echo "$n"
-		;;
+			echo "$n"
+			;;
 	esac
-	((n++))
+	n=$((n+1))
 done
