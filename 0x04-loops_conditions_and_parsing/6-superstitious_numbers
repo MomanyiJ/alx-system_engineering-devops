@@ -16,7 +16,7 @@ do
 			;;
 		17 )
 			echo "$n"
-			echo "bad lucky from Italy"
+			echo "bad luck from Italy"
 			;;
 		* )
 			echo "$n"
