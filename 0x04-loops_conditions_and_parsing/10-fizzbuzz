@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#bash script displaying 1-100
+#Displays FizzBuzz when number is a multiple of 5 and 3
+#displays Fizz when number is multiple of 3 and buzz when multiple of 5
+for ((i=1; i <= 100; i++))
+do
+	if [ $((i % 3)) = 0 ] && [ $((i % 5)) = 0 ]
+	then
+		echo "FIzzBuzz"
+	elif [ $((i % 3)) = 0 ]
+	then
+		echo "FIzz"
+	elif [ $((i % 5)) = 0 ]
+	then
+		echo "Buzz"
+	else
+		echo "$i"
+	fi
+done
