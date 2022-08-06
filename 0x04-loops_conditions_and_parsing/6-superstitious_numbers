@@ -2,7 +2,6 @@
 #bash script displaying 1-20
 #displays 4 then badluck from china on 4th loop iteration
 #displays 9 then bad luck from japan on the 9th loop iteration
-#dispalys 17 then badluck from Italy from 17th loop iteration
 n=1
 while [ "$n" -le 20 ];
 do
